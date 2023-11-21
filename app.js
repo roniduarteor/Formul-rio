@@ -13,7 +13,7 @@ function validarFormulario(){
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 
     if(!emailRegex.test(email)){
-        alert("Por favor, insira em email válido")
+        alert("Por favor, insira um email válido")
     }
 
     // Validação da senha
